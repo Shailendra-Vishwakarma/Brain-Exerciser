@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+#colorText {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#playButton {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 12px;
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+#playButton:hover {
+    background-color: #008CBA;
+    color: white;
+}
+footer {
+    padding: 10px; 
+    position: fixed; /* Fix the position of the footer */
+    bottom: 0; /* Place the footer at the bottom of the viewport */
+    width: 100%; /* Make the footer span the full width of the viewport */
+    padding: 20px; /* Padding around the content inside the footer */
+    text-align: center; /* Center-align the text */
+}
+
+footer div {
+    margin-bottom: 10px;
+    font-size: 10px; 
+}
